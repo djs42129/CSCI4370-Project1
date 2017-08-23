@@ -76,8 +76,8 @@ public class Table
     {
         switch (mType) {
         case TREE_MAP:    return new TreeMap <> ();
-        case LINHASH_MAP: return new LinHashMap <> (KeyType.class, Comparable [].class);
-        case BPTREE_MAP:  return new BpTreeMap <> (KeyType.class, Comparable [].class);
+        //case LINHASH_MAP: return new LinHashMap <> (KeyType.class, Comparable [].class);
+        //case BPTREE_MAP:  return new BpTreeMap <> (KeyType.class, Comparable [].class);
         default:          return null;
         } // switch
     } // makeMap
